@@ -1,0 +1,1 @@
+<view><block wx:for="{{lists}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><web-view src="{{item.url}}"></web-view></block></block></view>

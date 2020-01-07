@@ -1,0 +1,50 @@
+.bigstar50,
+.bigstar45,
+.bigstar40,
+.bigstar35,
+.bigstar30,
+.bigstar25,
+.bigstar20,
+.bigstar15,
+.bigstar10,
+.bigstar05,
+.bigstar00 {
+	display: inline-block;
+	zoom: 1;
+	background: url(./static/star/ic_rating_m.png) no-repeat;
+	width: 150upx;
+	height: 30upx;
+	margin: 1px 0 0 0;
+	overflow: hidden;
+	background-size: 100%;
+}
+.bigstar45 {
+    background-position: 0 -30upx;
+}
+.bigstar40 {
+    background-position: 0 -60upx;
+}
+.bigstar35 {
+    background-position: 0 -90upx;
+}
+.bigstar30 {
+    background-position: 0 -120upx;
+}
+.bigstar25 {
+    background-position: 0 -150upx;
+}
+.bigstar20 {
+    background-position: 0 -180upx;
+}
+.bigstar15 {
+    background-position: 0 -210upx;
+}
+.bigstar10 {
+    background-position: 0 -240upx;
+}
+.bigstar05 {
+    background-position: 0 -270upx;
+}
+.bigstar00 {
+    background-position: 0 -300upx;
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "违法线索举报",
+  "usingComponents": {
+    "van-uploader": "/wxcomponents/vant/dist/uploader/index"
+  }
+}

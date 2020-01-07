@@ -1,0 +1,164 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "海淀公关"
+				// "usingComponents": {
+				// 	"van-button": "/wxcomponents/vant/dist/button/index"
+				// }
+			}
+		},
+		{
+			"path": "components/online/online",
+			"style": {
+				"navigationBarTitleText": "违法线索举报",
+				"usingComponents": {
+					"van-uploader": "/wxcomponents/vant/dist/uploader/index"
+				}
+			}
+		},
+		{
+			"path": "components/answer/index",
+			"style": {
+				"navigationBarTitleText": "赛事广场"
+			}
+		},
+		{
+			"path": "components/my/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "components/active/index",
+			"style": {
+				"navigationBarTitleText": "精彩活动"
+			}
+		},
+		{
+			"path": "components/friend/index",
+			"style": {
+				"navigationBarTitleText": "网友福利"
+			}
+		},
+		{
+			"path": "components/friend/webview",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "components/my/info",
+			"style": {
+				"navigationBarTitleText": "我的资料",
+				"usingComponents": {
+					"van-area": "/wxcomponents/vant/dist/area/index",
+					"van-popup": "/wxcomponents/vant/dist/popup/index"
+				}
+			}
+		},
+		{
+			"path": "components/online/map",
+			"style": {
+				"navigationBarTitleText": "选择案发地点"
+			}
+		},
+		{
+			"path": "components/my/redPacket",
+			"style": {
+				"navigationBarTitleText": "我的红包",
+				"usingComponents": {
+				  "van-tab": "/wxcomponents/vant/dist/tab/index",
+				  "van-tabs": "/wxcomponents/vant/dist/tabs/index",
+				  "van-divider": "/wxcomponents/vant/dist/divider/index"
+				}
+			}
+		},
+		{
+			"path": "components/my/online",
+			"style": {
+				"navigationBarTitleText": "我的举报"
+			}
+		},
+		{
+			"path": "components/my/onlineDetail",
+			"style": {
+				"navigationBarTitleText": "举报详情"
+			}
+		},
+		{
+			"path": "components/my/answers",
+			"style": {
+				"navigationBarTitleText": "我的答题",
+				"usingComponents": {
+				  "van-divider": "/wxcomponents/vant/dist/divider/index"
+				}
+			}
+		},
+		{
+			"path": "components/my/contest",
+			"style": {
+				"navigationBarTitleText": "我的赛事",
+				"usingComponents": {
+				  "van-divider": "/wxcomponents/vant/dist/divider/index"
+				}
+			}
+		},
+		{
+			"path": "components/my/contestDetail",
+			"style": {
+				"navigationBarTitleText": "赛事详情",
+				"usingComponents": {
+				  "van-divider": "/wxcomponents/vant/dist/divider/index"
+				}
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "海淀公安",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	// "tabBar": {
+	//     "color": "#7A7E83",
+	//     "selectedColor": "#3cc51f",
+	//     "borderStyle": "black",
+	//     "backgroundColor": "#ffffff",
+	// 	"position":"bottom",
+	//     "list": [{
+	//         "pagePath": "pages/movie/movie",
+	//         "iconPath": "static/tabbar/movie.png",
+	//         "selectedIconPath": "static/tabbar/movie_cur.png",
+	//         "text": "电影"
+	//     }, {
+	//         "pagePath": "pages/read/read",
+	//         "iconPath": "static/tabbar/read.png",
+	//         "selectedIconPath": "static/tabbar/read_cur.png",
+	//         "text": "文章"
+	//     }]
+	// }
+	// "tabBar": {
+	// 		"color":"#8a8a8a",
+	// 		"selectedColor":"#d4237a",
+	// 		"borderStyle":"black",
+	// 		"backgroundColor":"#ffffff",
+	// 		"list": [
+	// 			{
+	// 				"pagePath":"pages/read/read",
+	// 				"text":"首页",
+	// 				"iconPath":"static/home_normal.png",
+	// 				"selectedIconPath":"static/home.png"
+	// 			},
+	// 			{
+	// 				"pagePath":"pages/movie/movie",
+	// 				"text":"搜索",
+	// 				"iconPath":"static/search_normal.png",
+	// 				"selectedIconPath":"static/search.png"
+	// 			},
+	// 		]	
+	// 	 }
+	// 	}
+}

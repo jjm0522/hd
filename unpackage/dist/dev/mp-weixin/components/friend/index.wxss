@@ -1,0 +1,119 @@
+
+.title-sel {
+	width: 100%;
+	height: 80rpx;
+	text-align: center;
+	/* border-radius: 50% 0 30% 0; */
+}
+.title-sel>._span {
+	display: inline-block;
+	width: 150rpx;
+	height: 70rpx;
+	background-color: #252525;
+	color: #808080;
+	text-align: center;
+	line-height: 70rpx;
+	/* border-radius: 40% 0 0 40%; */
+}
+.title-sel-color1 {
+	border-radius: 35rpx 0 0 35rpx;
+}
+.title-sel-color2 {
+	border-radius: 0 35rpx 35rpx 0;
+}
+.wrapper-wrap {
+	margin: 0px 40rpx 40rpx 40rpx;
+	background-color: #fff;
+	text-align: left;
+}
+.jubao_name {
+	color: #343434;
+	font-weight: 600;
+	margin-top: 35rpx;
+}
+.jubao_name_inp_wrap {
+	border-bottom: 1px solid #808080;
+	margin-top: 25rpx;
+}
+.inp {
+	color: #000000;
+}
+.tj {
+	/* height: 100vh; */
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	box-sizing: border-box;
+	/* padding-top: 38.5px; */
+}
+.content-bg {
+	background-repeat: repeat-y;
+	margin: 0px 20rpx 20rpx 20rpx;
+}
+.content {
+	/* text-align: center; */
+}
+.container {
+	height: auto;
+	color: #fff;
+}
+.top {
+	height: 200rpx;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.top-img-box {
+	position: relative;
+	top: -35px;
+	width: 177px;
+	margin: 0 auto;
+	height: 177px;
+}
+.top-img {
+	height: 100%;
+	width: 100%;
+}
+.content {
+	position: relative;
+	height: auto;
+	margin: 0 24px;
+	background: #fff;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 35px 0 50px 0;
+}
+.name {
+	color: rgba(0, 0, 0, 0.7);
+	font-weight: bold;
+	margin: 0 48px;
+	font-size: 15px;
+	padding-top: 18px;
+	padding-bottom: 8px;
+}
+.foot {
+	height: 50px;
+}
+.content-details {
+	margin: -95rpx 60rpx 80rpx 60rpx;
+}
+.eventone {
+	width: 100%;
+	height: 300rpx;
+	border-radius: 20rpx;
+	margin-bottom: 40rpx;
+	margin-top: 130rpx;
+}
+.img {
+	width: 100%;
+	height: 100%;
+	border-radius: 20rpx 20rpx 0 0;
+}
+.item-name {
+	width: 100%;
+	height: 80rpx;
+	background-color: #fff;
+	color: #000000;
+	line-height: 80rpx;
+	margin-top: -8rpx;
+	border-radius: 0 0 20rpx 20rpx;
+}
+

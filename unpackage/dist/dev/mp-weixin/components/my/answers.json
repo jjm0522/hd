@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的答题",
+  "usingComponents": {
+    "van-divider": "/wxcomponents/vant/dist/divider/index"
+  }
+}

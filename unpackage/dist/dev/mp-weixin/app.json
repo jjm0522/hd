@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "components/online/online",
+    "components/answer/index",
+    "components/my/index",
+    "components/active/index",
+    "components/friend/index",
+    "components/friend/webview",
+    "components/my/info",
+    "components/online/map",
+    "components/my/redPacket",
+    "components/my/online",
+    "components/my/onlineDetail",
+    "components/my/answers",
+    "components/my/contest",
+    "components/my/contestDetail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "海淀公安",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

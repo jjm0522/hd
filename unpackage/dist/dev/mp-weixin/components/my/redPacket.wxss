@@ -1,0 +1,110 @@
+
+.container {
+	height: 100vh;
+	background: #F3F4F6;
+	width: 100%;
+}
+.content {
+	height: auto;
+	background: #F3F4F6;
+	width: 100%;
+}
+.tab-vux {
+	font-weight: 700;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	height: 80rpx;
+	background-color: #fff;
+}
+.active {
+	color: red;
+}
+.content-item {
+	width: 50%;
+	text-align: center;
+	line-height: 80rpx;
+}
+.top-bg {
+	height: 24px;
+}
+.red-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	height: 102px;
+	margin: 0 48px;
+	background-repeat: no-repeat;
+	background-size: 107% 117%;
+	background-position: center center;
+}
+.red-bg {
+	height: 18px;
+}
+.red-left {
+	width: 126px;
+	height: 102px;
+	line-height: 102px;
+	text-align: center;
+	font-size: 18px;
+	color: #e8a899;
+	font-weight: 900;
+}
+.left-z {
+	font-size: 40px;
+	color: #de3b12;
+}
+.red-right {
+	width: 150px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.4);
+}
+.right-top {
+	margin-top: 23px;
+	font-size: 14px;
+}
+.right-center {
+	font-size: 20px;
+}
+.right-bottom {
+	font-size: 12px;
+	margin-top: 5px;
+}
+.tab {
+	padding: 15px 50px;
+}
+.item {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 10px 20px 0 20px;
+	border-bottom: 1px solid #ededed;
+	padding: 10px;
+}
+.item-name {
+	-webkit-box-flex: 1.5;
+	-webkit-flex: 1.5;
+	        flex: 1.5;
+}
+.item-type {
+	-webkit-box-flex: 0.5;
+	-webkit-flex: 0.5;
+	        flex: 0.5;
+}
+.item-money {
+	text-align: center;
+	-webkit-box-flex: 0.5;
+	-webkit-flex: 0.5;
+	        flex: 0.5;
+}
+.item-time {
+	text-align: right;
+	-webkit-box-flex: 2;
+	-webkit-flex: 2;
+	        flex: 2;
+}
+

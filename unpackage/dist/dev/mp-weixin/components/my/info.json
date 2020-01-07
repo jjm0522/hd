@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "我的资料",
+  "usingComponents": {
+    "van-area": "/wxcomponents/vant/dist/area/index",
+    "van-popup": "/wxcomponents/vant/dist/popup/index"
+  }
+}
